@@ -1,0 +1,108 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+  --ff-heading: 
+  --ff-body:'Palanquin', sans-serif;
+  --ff-heading: 'Staatliches', cursive;
+  --fs-heading: 4rem;
+  --fs-body:2.0rem
+
+}
+
+
+.page {
+  max-width: 38.9rem;
+  margin: auto;
+  background-color: #EFF1FF;
+  font-family: var(--ff-body);
+  
+}
+
+header{
+  background: #8E9AAF;
+  width: 389px;
+  height: 279px;
+  margin: auto;
+  padding-top: 32px;
+  padding-bottom: 29px;
+   }
+  
+h1{
+width: 38.9rem;
+height: 4.9rem;
+background: #CBC0D3;
+font-family:var(--ff-heading);
+font-size: var(--fs-heading);
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+
+margin: auto;
+padding-top: 0.9rem;
+text-align: center; 
+ }
+ h1:hover{
+  
+    transform: scale(1.02);
+    opacity:1;
+  
+ }
+  
+.logo{
+margin: auto;
+text-align: center;
+
+}
+  
+main{
+  margin: auto;
+  align-items: center;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  text-align: center;
+}
+
+p{
+  font-family: var(--ff-body);
+  font-size:var(--fs-body) ;
+  padding-top: 1.4rem;
+  padding-bottom: 6.3rem;
+  width: 30.5rem;
+}
+
+.card img:hover{
+  transform: scale(1.1);
+  opacity:0.7;
+}
+
+.card{
+  position: relative;
+  font-family:var(--ff-heading);
+  padding-bottom: 3.2rem;
+  }
+
+  .card h2{
+    position: absolute;
+    top: 1.7rem;
+    bottom: 19.9rem;
+    left:20.6rem;
+    font-family: var(--ff-heading);
+    font-size: var(--fs-body);
+    font-weight: 400;
+    color: #4A4E69;
+    background: #FEEAFA;
+    height: fit-content;
+    width: fit-content;
+    padding-left:2.3rem;
+    padding-right: 2.1rem;
+    padding-top: 1px;
+    border-radius: 20px;
+   
+    }
+
